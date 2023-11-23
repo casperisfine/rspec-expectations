@@ -12,9 +12,6 @@ module RSpec
         # Methods that raise warnings if removed.
         :__id__, :__send__, :object_id,
 
-        # Methods that are explicitly undefined in some subclasses.
-        :==, :===,
-
         # Methods we keep on purpose.
         :class, :respond_to?, :__method__, :method, :dup,
         :clone, :initialize_dup, :initialize_copy, :initialize_clone,

@@ -62,9 +62,6 @@ module RSpec
     # operators like `==` and `===`.
     # @private
     class AliasedMatcherWithOperatorSupport < AliasedMatcher
-      # We undef these so that they get delegated via `method_missing`.
-      undef ==
-      undef ===
     end
 
     # @private
